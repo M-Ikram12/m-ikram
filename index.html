@@ -11,7 +11,8 @@
             margin: 0;
             padding: 0;
             background: url('background.gif') no-repeat center center fixed;
-            background-size: 1840px 906px;
+            background-size: contain; /* Ensures the entire GIF is visible without zooming */
+            background-color: black; /* Fallback color in case the GIF doesn't load */
             color: #ffffff;
             text-align: center;
         }
